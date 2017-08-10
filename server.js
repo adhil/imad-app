@@ -5,20 +5,52 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-
-var articleOne = {
-    title: 'Article One | Adhil',
-    heading: 'Article One',
-    date: 'Aug 10, 2017',
-    content: `<p>
-                    This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article
-                </p>
-                <p>
-                    This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article
-                </p>
-                <p>
-                    This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article
-                </p>`
+var articles = {
+    articleOne: {
+        title: 'Article One | Adhil',
+        heading: 'Article One',
+        date: 'Aug 10, 2017',
+        content: `<p>
+                        This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article
+                    </p>
+                    <p>
+                        This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article
+                    </p>
+                    <p>
+                        This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article
+                    </p>`
+        
+    },
+    articleTwo: {
+        title: 'Article Two | Adhil',
+        heading: 'Article Two',
+        date: 'Aug 10, 2017',
+        content: `<p>
+                        This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article
+                    </p>
+                    <p>
+                        This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article
+                    </p>
+                    <p>
+                        This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article
+                    </p>`
+        
+    },
+    articleThree: {
+        title: 'Article Three | Adhil',
+        heading: 'Article Three',
+        date: 'Aug 10, 2017',
+        content: `<p>
+                        This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article
+                    </p>
+                    <p>
+                        This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article
+                    </p>
+                    <p>
+                        This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article
+                    </p>`
+        
+    }
     
 };
 
